@@ -1,16 +1,34 @@
-# React + Vite
+# The Eastern Development Organisation (TEDO)
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Official website for The Eastern Development Organisation (TEDO), a nonprofit dedicated to uplifting vulnerable communities in Eastern Uganda.
 
-Currently, two official plugins are available:
+## Project Overview
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+This website serves as a hub for:
+- **Vocational Skills Training**: Empowering youth with trade skills.
+- **Clean Water & Sanitation**: Providing safe drinking water.
+- **Disaster Relief**: Supporting communities in crisis.
+- **Agricultural Support**: Enhancing food security.
 
-## React Compiler
+## Tech Stack
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- **Framework**: React + Vite
+- **Styling**: Vanilla CSS (Custom Design System)
+- **Icons**: Lucide React
+- **Routing**: React Router DOM
 
-## Expanding the ESLint configuration
+## Getting Started
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+1. Clone the repository
+2. Install dependencies:
+   ```bash
+   npm install
+   ```
+3. Run the development server:
+   ```bash
+   npm run dev
+   ```
+
+## License
+
+Copyright © 2025 TEDO. All rights reserved.
