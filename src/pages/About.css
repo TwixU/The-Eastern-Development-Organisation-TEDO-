@@ -1,0 +1,126 @@
+.page-header {
+    background-color: var(--color-primary-dark);
+    padding: 6rem 0;
+    text-align: center;
+    background-image: linear-gradient(rgba(4, 106, 56, 0.9), rgba(4, 106, 56, 0.8)), url('https://images.unsplash.com/photo-1593113598332-cd288d649433?ixlib=rb-4.0.3&auto=format&fit=crop&w=2070&q=80');
+    background-size: cover;
+    background-position: center;
+}
+
+.about-intro {
+    max-width: 800px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.text-lg {
+    font-size: 1.2rem;
+    color: var(--color-gray);
+    line-height: 1.8;
+}
+
+.mission-vision-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 2rem;
+}
+
+.mv-card {
+    padding: 3rem;
+    border-radius: var(--radius-lg);
+    color: var(--color-white);
+    height: 100%;
+}
+
+.mission-card {
+    background-color: var(--color-primary);
+}
+
+.vision-card {
+    background-color: var(--color-secondary);
+}
+
+.mv-card h3 {
+    color: var(--color-white);
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
+
+.values-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 2rem;
+    margin-top: 3rem;
+}
+
+.value-item {
+    background-color: rgba(255, 255, 255, 0.1);
+    padding: 1.5rem;
+    border-radius: var(--radius-md);
+    text-align: center;
+}
+
+.value-item h3 {
+    color: var(--color-accent);
+    margin-bottom: 0.5rem;
+    font-size: 1.25rem;
+}
+
+.value-item p {
+    font-size: 0.95rem;
+    line-height: 1.5;
+}
+
+.bg-primary {
+    background-color: var(--color-primary);
+}
+
+.text-white-opacity {
+    color: rgba(255, 255, 255, 0.8);
+}
+
+.timeline {
+    max-width: 800px;
+    margin: 0 auto;
+    position: relative;
+    padding-left: 2rem;
+    border-left: 2px solid var(--color-light-gray);
+}
+
+.timeline-item {
+    position: relative;
+    margin-bottom: 3rem;
+    padding-left: 2rem;
+}
+
+.timeline-year {
+    position: absolute;
+    left: -2.9rem;
+    top: 0;
+    background-color: var(--color-secondary);
+    color: var(--color-white);
+    padding: 0.25rem 0.75rem;
+    border-radius: 20px;
+    font-weight: 700;
+    font-size: 0.9rem;
+}
+
+.timeline-content h3 {
+    margin-bottom: 0.5rem;
+    color: var(--color-primary);
+}
+
+.max-w-md {
+    max-width: 800px;
+}
+
+.mx-auto {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+@media (max-width: 768px) {
+    .mission-vision-grid {
+        grid-template-columns: 1fr;
+    }
+}

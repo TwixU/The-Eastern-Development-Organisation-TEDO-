@@ -1,0 +1,66 @@
+.section-trust {
+    background-color: var(--color-white);
+}
+
+.trust-content {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.mb-md {
+    margin-bottom: var(--spacing-md);
+}
+
+.mb-lg {
+    margin-bottom: var(--spacing-lg);
+}
+
+.trust-text {
+    font-size: 1.125rem;
+    color: var(--color-gray);
+    line-height: 1.8;
+}
+
+.bg-light {
+    background-color: var(--color-light-gray);
+}
+
+.section-subtitle {
+    display: block;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    margin-bottom: 0.5rem;
+}
+
+.section-intro {
+    max-width: 600px;
+    margin: 1rem auto 0;
+    color: var(--color-gray);
+}
+
+.programs-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 2rem;
+}
+
+.section-cta {
+    background-color: var(--color-dark);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('https://images.unsplash.com/photo-1488521787991-ed7bbaae773c?ixlib=rb-4.0.3&auto=format&fit=crop&w=2070&q=80');
+    background-size: cover;
+    background-position: center;
+    padding: 6rem 0;
+}
+
+.cta-text {
+    max-width: 700px;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 1.25rem;
+    opacity: 0.9;
+}
+
+.text-white {
+    color: var(--color-white);
+}

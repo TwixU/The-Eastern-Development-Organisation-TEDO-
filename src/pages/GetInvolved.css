@@ -1,0 +1,116 @@
+.involved-header {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('https://images.unsplash.com/photo-1599059813005-11265ba4b4ce?ixlib=rb-4.0.3&auto=format&fit=crop&w=2070&q=80');
+}
+
+.donation-methods-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 2rem;
+    margin-top: 3rem;
+}
+
+.donate-card {
+    background-color: var(--color-white);
+    padding: 2rem;
+    border-radius: var(--radius-lg);
+    box-shadow: var(--shadow-md);
+    text-align: center;
+    border: 1px solid var(--color-light-gray);
+    transition: transform 0.2s;
+}
+
+.donate-card:hover {
+    transform: translateY(-5px);
+    box-shadow: var(--shadow-lg);
+    border-color: var(--color-primary);
+}
+
+.card-icon {
+    color: var(--color-primary);
+    margin-bottom: 1rem;
+}
+
+.donate-card h3 {
+    margin-bottom: 0.5rem;
+    font-size: 1.25rem;
+}
+
+.details-box {
+    background-color: var(--color-light-gray);
+    padding: 1rem;
+    border-radius: var(--radius-md);
+    margin-top: 1rem;
+    font-size: 0.9rem;
+    text-align: left;
+}
+
+.volunteer-row {
+    display: flex;
+    gap: 4rem;
+    align-items: center;
+}
+
+.volunteer-content {
+    flex: 1;
+}
+
+.volunteer-item {
+    display: flex;
+    gap: 1.5rem;
+    margin-bottom: 2rem;
+}
+
+.v-icon-wrap {
+    width: 50px;
+    height: 50px;
+    background-color: rgba(0, 174, 239, 0.1);
+    /* Secondary color faint */
+    color: var(--color-secondary);
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-shrink: 0;
+}
+
+.v-text h3 {
+    font-size: 1.25rem;
+    margin-bottom: 0.5rem;
+}
+
+.volunteer-image-placeholder {
+    flex: 1;
+    height: 400px;
+}
+
+.ph-img {
+    width: 100%;
+    height: 100%;
+    background-color: #ddd;
+    border-radius: var(--radius-lg);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url('https://images.unsplash.com/photo-1559027615-cd4628902d4a?ixlib=rb-4.0.3&auto=format&fit=crop&w=2070&q=80');
+    background-size: cover;
+    background-position: center;
+}
+
+.ph-img span {
+    background: rgba(0, 0, 0, 0.5);
+    color: white;
+    padding: 0.5rem 1rem;
+    border-radius: 4px;
+}
+
+@media (max-width: 900px) {
+    .volunteer-row {
+        flex-direction: column;
+        gap: 2rem;
+    }
+
+    .volunteer-image-placeholder {
+        width: 100%;
+        height: 300px;
+    }
+}
