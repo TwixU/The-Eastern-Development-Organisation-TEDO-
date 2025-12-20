@@ -1,8 +1,11 @@
 import React from 'react';
+import { useNavigate } from 'react-router-dom';
 import { Mail, Phone, MapPin, Clock } from 'lucide-react';
 import './Contact.css';
 
 const Contact = () => {
+    const navigate = useNavigate();
+
     return (
         <div className="contact-page">
             <section className="page-header contact-header">
@@ -67,7 +70,7 @@ const Contact = () => {
 
                     <div className="contact-form-wrapper">
                         <h2 className="heading-lg mb-md">Send a Message</h2>
-                        <form className="contact-form" onSubmit={(e) => { e.preventDefault(); alert('Message sent!'); }}>
+                        <form className="contact-form" onSubmit={(e) => { e.preventDefault(); navigate('/thank-you'); }}>
                             <div className="form-group">
                                 <label htmlFor="name">Full Name</label>
                                 <input type="text" id="name" placeholder="Your Name" required />

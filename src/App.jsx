@@ -8,6 +8,7 @@ import GetInvolved from './pages/GetInvolved';
 import Contact from './pages/Contact';
 import PrivacyPolicy from './pages/PrivacyPolicy';
 import TermsOfService from './pages/TermsOfService';
+import ThankYou from './pages/ThankYou';
 
 function App() {
   return (
@@ -20,6 +21,7 @@ function App() {
         <Route path="contact" element={<Contact />} />
         <Route path="privacy-policy" element={<PrivacyPolicy />} />
         <Route path="terms-of-service" element={<TermsOfService />} />
+        <Route path="thank-you" element={<ThankYou />} />
       </Route>
     </Routes>
   );
